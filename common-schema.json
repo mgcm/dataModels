@@ -30,10 +30,10 @@
           "type": "string"
         },
         "alternateName": {
-           "type": "string" 
+           "type": "string"
         },
         "description": {
-           "type": "string" 
+           "type": "string"
         },
         "dataProvider": {
           "type": "string"
@@ -41,7 +41,7 @@
         "owner": {
           "type": "array",
           "items": {
-            "oneOf": [ 
+            "oneOf": [
               {
                 "type": "string",
                 "format": "uri"
@@ -57,7 +57,7 @@
     "Location-Commons": {
       "type": "object",
       "properties": {
-        "location": { "$ref": "http://json-schema.org/geojson/geometry.json#" },
+        "location": { "$ref": "https://raw.githubusercontent.com/fge/sample-json-schemas/master/geojson/geometry.json#" },
         "address": {
           "type": "object",
           "properties": {

@@ -63,9 +63,11 @@
             ]
           }
         },
+        "location": {
+          "$ref": "https://raw.githubusercontent.com/fge/sample-json-schemas/master/geojson/geometry.json#"
+        },
         "previousLocation": {
-          "$ref": "http://json-schema.org/geojson/geometry.json#",
-          "description": "The start point of this road segment encoded as a GeoJSON point"
+          "$ref": "https://raw.githubusercontent.com/fge/sample-json-schemas/master/geojson/geometry.json#"
         },
         "speed": {
           "type": "number"
